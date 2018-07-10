@@ -1,0 +1,105 @@
+body{
+  
+	margin:0px;
+	font-family: veradana;
+	
+}
+	header {
+    background-color: skyblue;
+    height: 120px;
+}
+
+header h1 {
+	background: white;
+	display: inline-block;
+	margin-left: 40px;
+	padding:  5px 5px;
+    border: 10px ;
+    float: left;
+    color: green;
+  
+    
+}
+ h1 .main {
+    color: black;
+    padding: 10px;
+}
+ nav {
+    float: right;
+}
+ nav ul li {
+        background: white;
+	    color: #333;
+		display: inline-block;
+		padding: 5px 5px;
+		margin-right: 45px;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 15px;
+		transition: 300ms;
+		}
+
+nav ul li a {
+  
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: skyblue;
+
+}
+
+
+#gallery-text-left{
+    /* Added */
+    width: 35%;
+  
+
+}
+#gallery-paragraph-1{
+		line-height: 25px;
+        width: 40%;	
+}
+
+p{
+	margin-left: 150px;
+	font-size:20px;
+
+}
+#gallery-paragraph-2{
+line-height:10px;
+float: left;
+padding-left:10px;
+}
+
+h3{
+	color: blue;
+	float: right;
+	padding-bottom: 150px;
+
+}
+#gallery-text-right{
+    /* Added */
+    width: 50%;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0px;
+   width: 100%;
+   background-color: #999;
+   font-style: bold;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+
+}
+
+
+
